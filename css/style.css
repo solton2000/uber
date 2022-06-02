@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#header{
+    padding: 15px 0;
+    background: #FFFFFF;
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-btn{
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0 20px ;
+    font-weight: 600;
+    cursor: pointer;
+}
+#search{
+    padding: 100px;
+}
+
+.search-input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.hero-title{
+    margin-bottom: 30px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.hero-gen{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.hero-block{
+    margin: 10px 30px;
+}
+
+#uber{
+    background: #262626;
+    padding: 10px 0;
+
+}
+
+.uber-width{
+    width: 100%;
+    background: grey;
+    height: 2px;
+    margin-top: 35px;
+}
+
+
+#select{
+    background: #262626;
+    padding: 100px 0 ;
+}
+
+.select-select{
+    width: 227px;
+    height: 40px;
+    color: white;
+    background: #3B3B3B;
+    border-radius: 2px;
+    margin-bottom: 33px;
+}
+
+
+.select-iten{
+    color: white;
+    font-size: 20px;
+}
+
+.select-iten2{
+    color: greenyellow;
+}
+
+
+.solton{
+
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 10px 0;
+
+}
+
+.solton2{
+
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+
+.select{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer-width2{
+    width: 100%;
+    background: grey;
+    height: 2px;
+    margin-top: 35px;
+}
+.header-general {
+    display: none;
+}
+
+.header-block {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.49);
+    position: fixed;
+    backdrop-filter: blur(5px);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-square {
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.header-square h1 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.header-square input {
+    width: 90%;
+    margin: 10px ;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-bottom:1px solid black;
+    outline: none;
+}
+.header-square button {
+    width: 30%  ;
+    height: 45px;
+    border: 1px solid red;
+    background: transparent;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header-square button:hover {
+    transform: scale(1.1);
+}
